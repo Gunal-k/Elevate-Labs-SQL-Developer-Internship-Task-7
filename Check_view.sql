@@ -1,0 +1,4 @@
+CREATE VIEW DelhiCustomers AS
+SELECT * FROM Customers
+WHERE City = 'Delhi'
+WITH CHECK OPTION;
